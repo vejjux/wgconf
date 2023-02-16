@@ -1,0 +1,14 @@
+DNS: 1.1.1.1
+AllowedIPs: 1.2.3.4/32
+Endpoint: 11.22.33.44:12345
+ServerKey: 
+RunUp:
+    - echo "UP {IP} {PeerPub}"
+RunDown:
+    - echo "DOWN {IP}"
+Peers:
+    peer01:
+        IP: 1.2.3.4
+        PublicKey:
+        PrivateKey: 
+    
